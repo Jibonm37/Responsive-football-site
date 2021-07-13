@@ -163,6 +163,7 @@ main{
 }
 .player p{
     font-size: 16px;
+    text-align: center;
     
 }
 
@@ -201,13 +202,44 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
 /* ---------highlights section -------- */
+
+
+/*------- footer-section ------------- */
+footer{
+    width: 480px;
+    height: 215px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo-img img{
+    width: 480px;
+    margin-bottom: 20px;
+}
+.social-media{
+   margin: auto;
+}
+.social-media ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.social-media ul li{
+    text-align: center;
+    font-size: 18px;
+    width: 25px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 30%;
+    margin-left: 10px;
+}
+footer p{
+    font-size: 18px;
+}
+
+
+/*------- footer-section ------------- */
