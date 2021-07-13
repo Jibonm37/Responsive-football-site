@@ -137,8 +137,77 @@ span{
 /* ------header styles------ */
 
 /* =-----------------main------------- */
+main{
+    padding:70px 190px ;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 30px;
+}
+.player{
 
+    
+    padding: 15px;
+    box-shadow: 2px 2px 2px 5px whitesmoke;
+    margin-left: 30px;
+}
+.player img{
+    width: 370px;
+    height: 250px;
+    margin-bottom: 16px;
+}
+.player-name{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.player p{
+    font-size: 16px;
+    
+}
 
 
 
 /* =-----------------main------------- */
+
+/* ---------highlights section -------- */
+.highlights{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.highlight{
+    margin-top: 50px;
+}
+.highlight h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px; 
+}
+.highlight-about{
+    width: 404px;
+    height: 113px;
+}
+.highlight-about p{
+    font-size: 16px;
+    color: gray;
+}
+.highlight-img img{
+    width: 590px;
+    height: 430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------highlights section -------- */
