@@ -254,7 +254,7 @@ footer p{
 
 
 /* for mobile */
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 480px){
     
  header{
      background: #6143e6;
