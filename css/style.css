@@ -307,6 +307,7 @@ footer p{
       width: 150px;
       margin-left: 10px;
       height: 300px;
+      animation: none;
       
   }
   @keyframes football {
