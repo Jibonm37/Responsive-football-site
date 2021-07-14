@@ -297,18 +297,30 @@ footer p{
         
   }
   .heading h1{
-      font-size: 40px;
+      font-size: 35px;
       
       
   }
  
   .heading-img img{
       margin-top: -500px;
-      width: 150px;
-      margin-left: 30px;
+      width: 200px;
+      margin-left: 20px;
       height: 300px;
       
   }
+  @keyframes football {
+    0%{
+        top: 0;
+        left: 0px;
+    }
+    
+    100%{
+        top: 0;
+        left: 0;
+    }
+    
+}
   main{
     padding:20px 20px ;
 }
@@ -321,7 +333,7 @@ footer p{
   .highlights{
     display: flex;
     margin-top: 100px;
-    margin-left: 20px;
+    margin-left: 10px;
     flex-direction: column;
     
 }
@@ -344,6 +356,7 @@ footer p{
     height: 300px;
 }
 .logo-img img{
+    position: fixed;
     margin-top: 100px;
     width: 350px;
     margin-bottom: 20px;
