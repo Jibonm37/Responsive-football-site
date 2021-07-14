@@ -28,17 +28,11 @@ body{
 
 
 /* ------header styles------ */
-
 header{
-    background: #6143e6;
-    padding: 0 190px;
-    padding-top: 43px;
-    width: 100%;
-    height: fit-content;
-
-    
-   
+    padding: 40px 140px;
+    background-color:#6143e6;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -59,14 +53,17 @@ nav{
     color: whitesmoke;
     font-size: 16px;
     margin-left: 36px;
+    font-weight: 500;
 }
 .log-in-button{
     background-color: #E02C6D
     ;
-    padding: 10px 24px;
+    font-size: 16px;
+    padding: 8px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
 }
 .log-in-button a{
     text-decoration: none;
@@ -87,29 +84,48 @@ span{
 .heading h1{
     font-family: Poppins;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 64px;
     color: whitesmoke;
+    margin-bottom: 27px;
 }
 .live-button{
+    
     margin-top: 25px;
-    width: 168px;
-    height: 44px;
+   
     background-color: #E02C6D
     ;
-    padding: 10px 24px;
+    width: 168px;
+    height: 44px;
+   
+   
     
 }
 .live-button a{
+    width: 100px;
+    height: 44px;
     text-decoration: none;
     color: whitesmoke;
+    text-align:center;
+    font-size: 16px;
+    padding: 10px 24px;
+    background-color: #E02C6D
+    ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .heading-img{
     margin-top: 65px;
-    margin-left: 250px;
-    margin-bottom: 85px;
+    margin-left: 300px;
+    margin-bottom: 80px;
     
     
+}
+.heading-img img{
+    width: 555px;
+    height: 440px;
 }
 @keyframes football {
     0%{
