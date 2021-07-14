@@ -1,0 +1,124 @@
+/* ---------for tablet-------- */
+
+
+@media only screen and (min-width:481px) and (max-width: 768px){
+    header{
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .nav-bar{
+        margin-right: 15px;
+    }
+    .log-in-button{
+        width: 40px;
+        margin-right: 20px;
+        padding: 2px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .nav-bar ol li{
+        margin-left: 10px;
+    }
+    .heading{
+        width: 50%;
+        margin-right: 30px;
+       
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+    .live-button{
+        width: 40px;
+        font-size: 8px;
+        padding: 4px;
+        height: 
+        40px;
+    }
+    .heading-img{
+        width: 50%;
+    
+        margin-left: 10px;
+
+    }
+    .heading-img img{
+        width: 200px;
+        height: 300px;
+       
+        animation: none;
+    }
+    main{
+        padding: 10px 10px;
+    }
+    .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .player{
+        margin-left: 0px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    .player img{
+    width: 250px;
+    }
+    .player-name{
+        font-size: 17px;
+    }
+    .player p{
+        font-size: 12px;
+    }
+    .highlights{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .highlight{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .highlight h1{
+        font-size: 40px;
+    }
+    .highlight-about{
+        width: 300px;
+        height: 113px;
+    }
+    .highlight-about p{
+        margin-top: 10px;
+        font-size: 16px;
+        color: gray;
+    }
+    .live-button{
+        margin-bottom: 10px;
+    }
+    .highlight-img img{
+        width: 450px;
+        height: 350px;
+        margin-bottom: 80px;
+    }
+    footer{
+        margin-bottom: 0px;
+    }
+     .logo-img img{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .social-media ul li{
+        text-align: center;
+        font-size: 15px;
+        width: 20px;
+        height: 18px;
+        background-color: gray;
+        border-radius: 30%;
+        margin-left: 10px;
+    }
+    footer p{
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+}
+
+
+
+/* ---------for tablet--------
