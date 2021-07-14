@@ -354,6 +354,7 @@ footer p{
 .highlight-img img{
     width: 350px;
     height: 300px;
+    margin-left: 10px;
 }
 .logo-img img{
     position: fixed;
