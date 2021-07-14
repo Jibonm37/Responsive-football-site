@@ -127,36 +127,21 @@ span{
 .heading-img img{
     width: 555px;
     height: 440px;
+    transition: 5s;
 }
-@keyframes football {
-    0%{
-        top: 0;
-        left: 0px;
-    }
-    50%{
-        top: 20px;
-        left: 10px;
-        
-        transform: translate(10%);
-    }
-    100%{
-        top: 0;
-        left: 0;
-    }
-    
-}
-.heading-img img{
-    width: 500px;
-    height: 438px;
-    transition: 10s;
-    animation: football 10s linear 3s infinite forwards ;
+
+.heading-img:hover .banner{
+    transform: scale(1.5);
+   
+   
+    transition:ease-in-out
 }
 
 /* ------header styles------ */
 
 /* =-----------------main------------- */
 main{
-    padding:70px 190px ;
+    padding:70px 180px ;
 }
 .container{
     display: grid;
@@ -167,7 +152,8 @@ main{
     
     padding: 15px;
     box-shadow: 2px 2px 2px 5px whitesmoke;
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 .player img{
     width: 300px;
@@ -180,7 +166,7 @@ main{
 }
 .player p{
     font-size: 16px;
-    text-align: center;
+    text-align:;
     
 }
 
